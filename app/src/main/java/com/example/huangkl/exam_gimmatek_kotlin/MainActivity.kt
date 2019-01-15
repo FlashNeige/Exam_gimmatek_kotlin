@@ -1,16 +1,13 @@
 package com.example.huangkl.exam_gimmatek_kotlin
 
-import android.content.Context
-import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.Spinner
 import android.widget.TextView
 import android.widget.Toast
+import org.jetbrains.anko.toast
+import org.jetbrains.anko.longToast
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,9 +36,9 @@ class MainActivity : AppCompatActivity() {
             val isPasswordCorrect = mPasswordEditText!!.text.toString() == getString(R.string.test_password)
 
             if (isAccountCorrect && isPasswordCorrect) {
-                Toast.makeText(application, R.string.signIn_test_ok, Toast.LENGTH_LONG).show()
+                toast(R.string.signIn_test_ok)
             } else {
-                Toast.makeText(application, R.string.signIn_test_fail, Toast.LENGTH_LONG).show()
+                toast(R.string.signIn_test_fail)
             }
         }
 

@@ -1,7 +1,10 @@
-package com.example.huangkl.exam_gimmatek_kotlin
+package com.example.huangkl.exam_gimmatek
 
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.graphics.Bitmap
+import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.Editable
@@ -10,11 +13,11 @@ import android.text.TextWatcher
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.TextView
-import org.jetbrains.anko.toast
+import android.widget.Toast
 
 import java.util.regex.Pattern
-
 
 class SignUpAccountActivity : AppCompatActivity() {
     private var mNextButton: Button? = null
@@ -146,7 +149,7 @@ class SignUpAccountActivity : AppCompatActivity() {
         mPasswordEditText!!.addTextChangedListener(mTextWatcher)
         mPasswordConfirmEditText!!.addTextChangedListener(mTextWatcher)
 
-        mNextButton!!.setOnClickListener { toast(R.string.next_button) }
+        mNextButton!!.setOnClickListener { Toast.makeText(applicationContext, R.string.next_button, Toast.LENGTH_SHORT).show() }
 
     }
 
