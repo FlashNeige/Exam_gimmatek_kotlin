@@ -1,0 +1,30 @@
+<resources>
+    <string name="form_english_and_numbers">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="app_name">Exam_gimmatek</string>
+    <string name="test_id">A123456789</string>
+    <string name="test_password">123456</string>
+    <string name="hint_please_enter_your_account">請輸入您的帳號</string>
+    <string name="hint_please_enter_your_password">請輸入您的密碼</string>
+    <string name="signIn_test_ok">登入成功！</string>
+    <string name="signIn_test_fail">帳號密碼錯誤，請重新輸入！</string>
+    <string name="signIn">登入</string>
+    <string name="forgetpassword">忘記密碼</string>
+    <string name="signUp">註冊</string>
+    <string name="id">身份證字號</string>
+    <string name="errod_id">請輸入正確的身份證字號</string>
+    <string name="password">密碼設定</string>
+    <string name="text_confirm_password_format">請確認密碼格式</string>
+    <string name="password_hint">請輸入6~12位英文字母或數字</string>
+    <string name="confirmPassword">請再次輸入密碼</string>
+    <string name="text_confirm_password_different_with_password">密碼輸入不符合</string>
+    <string name="text_take_negative_photo_id">拍攝身份證反面</string>
+    <string name="text_take_positive_photo_id">拍攝身份證正面</string>
+    <string name="next">下一步</string>
+    <string name="next_button">資料填寫正確，跳轉至下一頁！</string>
+    <string name="user">實名認證</string>
+    <string name="general">基本資料</string>
+    <string name="health">健康資料</string>
+    <string name="habit">興趣習慣</string>
+
+
+</resources>
